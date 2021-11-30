@@ -1,12 +1,17 @@
-function add(n1: number, n2: number) {
-  if (typeof n1 === "number" && typeof n2 === "number") {
-    throw new Error("Incorrect input!");
-  }
-  return n1 + n2;
-}
+// object type asignment
+// const person: {
+//   name: string;
+//   age: number;
+// } = {
+//   name: "Yofan",
+//   age: 21,
+// };
 
-const number1 = 5;
-const number2 = 2.8;
+// console.log(person);
 
-const result = add(number1, number2);
-console.log(result);
+const person = {
+  name: "Yofan",
+  age: 21,
+};
+
+console.log(person);
